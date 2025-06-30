@@ -17,8 +17,8 @@ spec:
       - image: ghcr.io/satsuki2200/guestbook:latest
         name: guestbook
         env:
-        - name: BAR
-          value: foo
+        - name: FOO
+          value: bar
         ports:
         - name: http
           containerPort: 3000
